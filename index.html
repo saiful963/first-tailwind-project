@@ -7,16 +7,71 @@
     <!-- css file link here -->
     <link rel="stylesheet" href="CSS/style.css" />
   </head>
-  <body>
-    <h1 class="bg-red-600 text-3xl">Hello World</h1>
-    <h2>Hello World!</h2>
-    <h3>Hello World!</h3>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, expedita
-      eum. Reprehenderit quae ipsum libero sit nihil earum ullam eius in veniam,
-      sapiente expedita soluta ipsa tempora, quod atque quaerat. Doloremque esse
-      suscipit iusto voluptates laborum ex vero. Praesentium rem accusantium ut
-      beatae necessitatibus veritatis voluptatum mollitia nulla impedit quod.
-    </p>
+  <body class="bg-[#2B2D33]">
+    <!-- navigation section -->
+    <nav class="bg-[#2B2D33] shadow-lg">
+      <div class="container mx-auto">
+        <div class="sm:flex justify-between items-center py-6">
+          <div class="sm:mb-0 mb-4 text-center">
+            <a class="sm:text-3xl text-xl font-bold text-white" href="#"
+              ><span class="text-[#F65023]">S</span>aiful Cod<span
+                class="text-[#F65023]"
+                >ers</span
+              ></a
+            >
+          </div>
+          <ul
+            class="sm:flex text-xl text-white text-center border-t sm:border-none"
+          >
+            <li class="mt-4 sm:mt-0">
+              <a class="text-[#F65023] p-3" href="#">Home</a>
+            </li>
+            <li><a class="p-3 hover:text-[#F65023]" href="#">Products</a></li>
+            <li><a class="p-3 hover:text-[#F65023]" href="#">Blog</a></li>
+            <li><a class="p-3 hover:text-[#F65023]" href="#">Protfollio</a></li>
+            <li><a class="p-3 hover:text-[#F65023]" href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navigation section end -->
+
+    <!-- hero section -->
+    <section>
+      <div
+        class="container mx-auto border border-indigo-600 border-t-0 text-white sm:flex justify-around items-center text-center h-[80vh] px-10 pt-10"
+      >
+        <div>
+          <h1 class="text-2xl sm:text-5xl mb-5 sm:mb-16">
+            Saiful Coders: Learn <br />
+            Programing
+          </h1>
+          <button
+            class="bg-indigo-800 transition px-7 py-3 text-xl rounded-full shadow-xl hover:bg-indigo-950"
+          >
+            Join: ITWindow-A Digital Agency
+            <svg
+              class="w-7 inline-block text-red-500 ml-2 animate-ping"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+              />
+            </svg>
+          </button>
+        </div>
+        <div>
+          <img class="animate-pulse" src="images/hero-img.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- hero section end -->
   </body>
 </html>
